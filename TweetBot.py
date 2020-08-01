@@ -5,8 +5,8 @@ import time
 Two keys inside OAuthHandler function are API key and API scecret Key from my twitter API app
 keys inside set_access_token function are Access token key and Access token secret key from my twitter API app
 '''
-auth = tweepy.OAuthHandler(API key, API_secret key)
-auth.set_access_token(Access token,Access token secret)
+auth = tweepy.OAuthHandler(key1,key2)
+auth.set_access_token(key1,key2)
              
 
 api = tweepy.API(auth)  # provides access to our Twitter account using API
